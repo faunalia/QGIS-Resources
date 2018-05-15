@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.18.16" simplifyAlgorithm="0" minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.18.18" simplifyAlgorithm="0" minimumScale="0" maximumScale="0" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="id">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
@@ -65,6 +65,10 @@
                       <symbol alpha="1" clip_to_extent="1" type="marker" name="@@@@0@1@0@0@0">
                         <layer pass="0" class="FontMarker" locked="0">
                           <prop k="angle" v="0"/>
+                          <prop k="angle_dd_active" v="1"/>
+                          <prop k="angle_dd_expression" v="CASE WHEN azimuth(&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2)-1),&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2))&#xd;&#xa;    )> pi()  THEN degrees(azimuth(&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2)-1),&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2))&#xd;&#xa;    ))+90&#xd;&#xa;    ELSE&#xd;&#xa;    degrees(azimuth(&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2)-1),&#xd;&#xa;        point_n( $geometry,(@geometry_part_num*2))&#xd;&#xa;    ))-90&#xd;&#xa;    END"/>
+                          <prop k="angle_dd_field" v=""/>
+                          <prop k="angle_dd_useexpr" v="1"/>
                           <prop k="char_dd_active" v="1"/>
                           <prop k="char_dd_expression" v="concat( &#xd;&#xa;  round( &#xd;&#xa;&#x9; distance(&#xd;&#xa;&#x9;&#x9;point_n( $geometry,(@geometry_part_num*2)-1),&#xd;&#xa;&#x9;&#x9;point_n( $geometry,(@geometry_part_num*2)))&#xd;&#xa;&#x9; ,2)&#xd;&#xa;&#x9;, 'm' &#xd;&#xa;)"/>
                           <prop k="char_dd_field" v=""/>
