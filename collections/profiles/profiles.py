@@ -122,6 +122,13 @@ class ProfileBeta_ProcessingAlgorithm(QgsProcessingAlgorithm):
             
             )
     
+    def helpUrl(self):
+        """
+        Returns the URL of the help online
+        """
+        return 'https://github.com/Korto19/Profili/#profili'
+
+    
     def initAlgorithm(self, config=None):
         """
         Here we define the inputs and output of the algorithm, along

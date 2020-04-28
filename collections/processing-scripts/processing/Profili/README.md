@@ -20,7 +20,7 @@ Descrizione parametri:
 2. [**opzione**] scala di disegno normalmente 1:1 (si scala in stampa) [disponibili 1:1, 1:10, 1:2, 1:20]
 3. [**opzione**] Picchetto o sezione di partenza del profilo
 4. [**opzione**] Picchetto o sezione di arrivo del profilo
-   NOTA: i valori si desumono del profilo una volta eseguito, il primo valore deve essere minore del seconto, eventuale svista di inserimento viene corretta automaticamente dal programma scambiando i valori  
+   NOTA: i valori si desumono del profilo una volta eseguito, il primo valore deve essere minore del seconto, eventuale svista di inserimento viene corretta automaticamente dal programma scambiando i valori
 5. [**opzionale**] In caso di subprofilo è possibile ridurre automaticamente la    nuova quota di riferimento
 6. [**opzionale**] Layer puntuale di risultato per le etichette
 7. [**opzionale**] Layer line di risultato delle candele e delle fincature
