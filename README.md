@@ -5,7 +5,7 @@ resources that can be shared with the QGIS Resources Sharing.
 
 ## Collections
 
-**Distance Measurements**: automatically measure line length or polygon perimeter
+[**Distance Measurements**](https://github.com/faunalia/QGIS-Resources/tree/master/collections/distance-measurements): automatically measure line length or polygon perimeter
 and area with style!
 
 ![Dimension Line](collections/distance-measurements/preview/dimensions_line.png)
@@ -14,7 +14,7 @@ and area with style!
 
 ![Distance Measurement](collections/distance-measurements/preview/distance_measure.png)
 
-**Profiles**: collection of Processing Scripts and style to generate profiles
+[**Profiles**](https://github.com/faunalia/QGIS-Resources/tree/master/collections/profiles): collection of Processing Scripts and style to generate profiles
 on the Map Canvas. Special thanks to @Korto19
 
 ![Profile 1](collections/profiles/preview/img_01.png)
