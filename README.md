@@ -8,15 +8,15 @@ resources that can be shared with the QGIS Resources Sharing.
 **Distance Measurements**: automatically measure line length or polygon perimeter
 and area with style!
 
-![collections/distance-measurements/preview/dimensions_line.png](Dimension Line)
+![Dimension Line](collections/distance-measurements/preview/dimensions_line.png)
 
-![collections/distance-measurements/preview/dimensions_polygon.png](Dimension Polygon)
+![Dimension Polygon](collections/distance-measurements/preview/dimensions_polygon.png)
 
-![collections/distance-measurements/preview/distance_measure.png](Distance Measurement)
+![Distance Measurement](collections/distance-measurements/preview/distance_measure.png)
 
 **Profiles**: collection of Processing Scripts and style to generate profiles
 on the Map Canvas. Special thanks to @Korto19
 
-![collections/profiles/preview/img_01.png](Profile 1)
+![Profile 1](collections/profiles/preview/img_01.png)
 
-![collections/profiles/preview/img_02.png](Profile 2)
+![Profile 2](collections/profiles/preview/img_02.png)
